@@ -1,0 +1,151 @@
+* {
+    /* emmet: viet tat */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-main {
+    position: absolute;
+    height: 96px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    border-bottom: 0.5px solid #ffffff33;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    /* background-color: aqua; */
+    position: fixed;
+    background-image: linear-gradient(5deg, rgb(94, 92, 92), transparent);
+}
+/* .hearder-main:hover {
+    background-color: #fff;
+} */
+/* .hearder-main:hover .contact>div>a {
+    color: black;
+}
+.hearder-main:hover .menu-item>a>span {
+    color: black;
+} */
+/* .hearder-main:hover .logo__web1 {
+    display: none;
+} */
+.menu-item:hover span{
+    transform: translateY(-2px);
+}
+.logo__web {
+    display: block;
+}
+/* .hearder-main:hover .logo__web {
+    display: block;
+} */
+
+.menu {
+    display: flex;
+}
+.downMenu {
+    text-align: justify;
+    line-height: 30px;
+    top: 100%;
+    background-color: #f8f5f5;
+    box-shadow: #000 0 25px 25px -12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    padding: 10px 10px;
+    /* margin: 0 15px; */
+    border: 2px solid 154284;
+    visibility: hidden;
+    column-count: 2;
+}
+
+.downMenu>a {
+    color: #0c0c0c;
+    font-size: 15px;
+    font-weight: 550;
+    margin: 5px 0 10px 5px;
+    padding: 5px 0 0px 0;
+}
+
+
+.downMenu>a:hover {
+    color: rgb(216, 110, 12);
+}
+
+.menu-item:hover .downMenu {
+    visibility: visible;
+}
+.nav {
+    display: flex;
+}
+.menu-item {
+    margin: 0 10px;
+    padding: 38px 10px;
+}
+.menu-item>a>span {
+    color: #000;
+}
+.contact {
+    display: flex;
+}
+.contact>div {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+.contact>div>a {
+    color: #000;
+}
+
+.backgroud{
+    background-image: url(https://www.pygmy-elephant.com/resize/medias/travelslide/420/image/c1600x480+quality-75+wmax-1+hmax-1/tour-du-mont-blanc-1-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+}
+
+#content {}
+.container {
+    background-color: #948f8f;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.text-backgroud {
+    opacity: 0.7;
+    background-color: #4d4a4a;
+    margin: 40px;
+    padding: 20px;
+    top: 45%;
+    position: absolute;
+}
+
+#footer { 
+    background-color: #161616;
+    }
+    
+    /* footer */
+    .container-footer {
+        /* background-color: #000; */
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        height: 400px;
+        padding-top: 120px;
+        color: white;
+    }
+    .copyright {
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    .kengang {
+        color: #292727;
+    }
+    

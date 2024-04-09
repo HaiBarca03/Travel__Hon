@@ -1,0 +1,225 @@
+* {
+    /* emmet: viet tat */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-main {
+    position: absolute;
+    height: 96px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    border-bottom: 0.5px solid #ffffff33;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    /* background-color: aqua; */
+    position: fixed;
+    background-image: linear-gradient(5deg, rgb(172, 170, 170), transparent);
+}
+
+.menu-item:hover span{
+    transform: translateY(-2px);
+}
+.logo__web {
+    display: block;
+}
+
+.menu {
+    display: flex;
+}
+.downMenu {
+    text-align: justify;
+    line-height: 30px;
+    top: 100%;
+    background-color: #f8f5f5;
+    box-shadow: #000 0 25px 25px -12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    padding: 10px 10px;
+    /* margin: 0 15px; */
+    border: 2px solid 154284;
+    visibility: hidden;
+    column-count: 2;
+}
+
+.downMenu>a {
+    color: #0c0c0c;
+    font-size: 15px;
+    font-weight: 550;
+    margin: 5px 0 10px 5px;
+    padding: 5px 0 0px 0;
+}
+
+
+.downMenu>a:hover {
+    color: rgb(216, 110, 12);
+}
+
+.menu-item:hover .downMenu {
+    visibility: visible;
+}
+.nav {
+    display: flex;
+}
+.menu-item {
+    margin: 0 10px;
+    padding: 38px 10px;
+}
+.menu-item>a>span {
+    color: #000;
+}
+.contact {
+    display: flex;
+}
+.contact>div {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+.contact>div>a {
+    color: #000;
+}
+
+/* content */
+.container {
+    text-align: center;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 35%;
+    position: absolute;
+}
+.content__container {
+    margin: 50px 40px;
+    display: flex;
+}
+.form__send {
+    width: 70%;
+}
+.form__send h5 {
+    opacity: 0.7;
+}
+form {
+    margin-top: 20px;
+}
+.info_me {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+label {
+    font-weight: 550;
+}
+.name,.mail {
+    max-width: 50%;
+}
+.mail {
+    margin-left: 15px;
+}
+input {
+    margin-top: 10px;
+    border: 1px solid #7c7979;
+    padding: 10px;
+    width: 100%;
+}
+input[type="number"] {
+    width: 100%;
+}
+.name,.mail,.sdt,.note {
+    margin-bottom: 20px;
+    width: 100%;
+}
+textarea {
+    margin-top: 10px;
+    border: 1px solid #7c7979;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+}
+button {
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 7px;
+}
+button a {
+    color: #fff;
+    font-weight: 550;
+}
+.contact__me {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 50px;
+}
+.contact__me h1 {
+    margin-bottom: 45px;
+}
+.contact__me div {
+    margin-bottom: 30px;
+}
+.contact__me div span {
+    opacity: 0.7;
+    padding-bottom: 10px;
+}
+.hotline p {
+    color: orangered;
+    font-size: 23px;
+}
+.time p {
+    font-size: 23px;
+    font-weight: 550;
+}
+.contact__me iframe {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+#content{}
+.backgroud {
+    background-image: url(https://gotravel.webtravel.vn/assets/image/destinations-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+}
+.container {
+    /* background-color: #948f8f; */
+    padding-top: 10px;
+    justify-content: center;
+}
+.nav_secondary a {
+    color: #fff;
+}
+
+
+#footer { 
+    background-color: #161616;
+    }
+    
+    /* footer */
+    .container-footer {
+        /* background-color: #000; */
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        height: 400px;
+        padding-top: 120px;
+        color: white;
+    }
+    .copyright {
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    .kengang {
+        color: #292727;
+    }
+    

@@ -1,0 +1,172 @@
+* {
+    /* emmet: viet tat */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-main {
+    position: absolute;
+    height: 96px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    border-bottom: 0.5px solid #ffffff33;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    /* background-color: aqua; */
+    position: fixed;
+    background-image: linear-gradient(5deg, rgb(172, 170, 170), transparent);
+}
+
+.menu-item:hover span{
+    transform: translateY(-2px);
+}
+.logo__web {
+    display: block;
+}
+.menu {
+    display: flex;
+}
+.downMenu {
+    text-align: justify;
+    line-height: 30px;
+    top: 100%;
+    background-color: #f8f5f5;
+    box-shadow: #000 0 25px 25px -12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    padding: 10px 10px;
+    /* margin: 0 15px; */
+    border: 2px solid 154284;
+    visibility: hidden;
+    column-count: 2;
+}
+
+.downMenu>a {
+    color: #0c0c0c;
+    font-size: 15px;
+    font-weight: 550;
+    margin: 5px 0 10px 5px;
+    padding: 5px 0 0px 0;
+}
+
+
+.downMenu>a:hover {
+    color: rgb(216, 110, 12);
+}
+
+.menu-item:hover .downMenu {
+    visibility: visible;
+}
+.nav {
+    display: flex;
+}
+.menu-item {
+    margin: 0 10px;
+    padding: 38px 10px;
+}
+.menu-item>a>span {
+    color: #000;
+}
+.contact {
+    display: flex;
+}
+.contact>div {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+.contact>div>a {
+    color: #000;
+}
+
+/* content */
+.backgroud img {
+    width: 100%;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.container-blog {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.title-blog {
+    text-align: center;
+    line-height: 40px;
+}
+.title-blog span {
+    opacity: 0.7;
+}
+.item-blog {
+    width: 70%;
+    display: flex;
+}
+.item-blog a {
+    width: calc(100%/3);
+}
+.text-blog {
+    margin: 0 10px;
+}
+.text-blog h4 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+.text-blog p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 15px;
+}
+.image img {
+    width: 100%;
+    height: 200px;
+}
+.backgroudV {
+    background-image: url(https://www.pygmy-elephant.com/resize/medias/postcategory/3/bg_image/w2000+quality-75/adobestock-44424159-smaller.jpg);
+    line-height: 285px;
+}
+.backgroudC {
+    background-image: url(https://www.pygmy-elephant.com/resize/medias/postcategory/7/bg_image/w2000+quality-75/bg-category.jpg);
+    line-height: 285px;
+}
+
+.backgroudB {
+    background-image: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res70/74000/74761-Alberta.jpg);
+    line-height: 285px;
+    background-repeat: no-repeat;
+}
+
+#footer { 
+    background-color: #161616;
+    }
+    
+    /* footer */
+    .container-footer {
+        /* background-color: #000; */
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        height: 400px;
+        padding-top: 120px;
+        color: white;
+    }
+    .copyright {
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    .kengang {
+        color: #292727;
+    }
+    
